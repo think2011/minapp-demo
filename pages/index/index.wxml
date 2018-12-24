@@ -9,14 +9,8 @@
   </view>
   <view class="history">
     <view class="h1">搜索历史</view>
-    <view class="word-item">
-      <view>led</view>
-    </view>
-    <view class="word-item">
-      <view>led222</view>
-    </view>
-    <view class="word-item">
-      <view>led333</view>
+    <view bindtap="next" wx:for="{{keywords}}" wx:key="{{index}}" class="word-item">
+      <view>{{item}}</view>
     </view>
   </view>
 </view>

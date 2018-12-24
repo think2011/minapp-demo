@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/step2/step2", "pages/index/index"],
+  "pages": ["pages/index/index", "pages/step2/step2"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#377bfb",
