@@ -1,1 +1,0 @@
-# minapp-demo
