@@ -1,0 +1,43 @@
+.search {
+  width: 680rpx;
+  display: flex;
+  margin: 60rpx auto 50rpx;
+  padding: 28rpx 24rpx;
+  border-radius: 6rpx;
+  box-shadow: 0 6rpx 20rpx 0 rgba(0, 0, 0, 0.1);
+  font-size: 34rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  flex: 1;
+}
+
+.search .icons {
+  display: flex;
+}
+
+.search .icons view {
+  margin-right: 20rpx;
+}
+
+.history {
+  width: 680rpx;
+  margin: auto;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.history .h1 {
+  margin-bottom: 30rpx;
+}
+
+.history .word-item view {
+  background: #f2f2f2;
+  margin: 0 0 30rpx 0;
+  padding: 12rpx 36rpx;
+  display: inline-block;
+  border-radius: 44rpx;
+  box-shadow: 0 2rpx 0 2rpx rgba(0, 0, 0, 0.1);
+}

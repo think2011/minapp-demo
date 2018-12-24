@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="title">为您搜索到以下的关键字</view>
+  <view class="subtitle">请点选需要的关键字</view>
+  <view class="btn-export">导出卡片词库</view>
+  <view class="words">
+    <view class="word-list">
+      <view wx:for="{{keywords}}" wx:key="{{index}}" class="word-item">{{item.key}}</view>
+      <view class="btn-next">立即搜索 →</view>
+    </view>
+    <view class="word-list"></view>
+  </view>
+</view>
