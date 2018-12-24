@@ -15,12 +15,13 @@ page {
 .btn-export {
   font-size: 24rpx;
   position: absolute;
-  bottom: 18px;
-  left: 15px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .words {
   display: flex;
+  overflow: hidden;
 }
 
 .words .word-list {
@@ -40,6 +41,10 @@ page {
 
 .words .word-list:last-child {
   transform: scale(1, 0.85);
+  font-size: 24px;
+  color: #ccc;
+  padding: 50rpx;
+  margin: 0;
 }
 
 .words .word-list .word-item {

@@ -7,6 +7,6 @@
       <view wx:for="{{keywords}}" wx:key="{{index}}" class="word-item">{{item.key}}</view>
       <view class="btn-next">立即搜索 →</view>
     </view>
-    <view class="word-list"></view>
+    <view class="word-list">看不到看不到看不到看不到看不到看不到看不到</view>
   </view>
 </view>
