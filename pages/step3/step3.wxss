@@ -1,0 +1,33 @@
+.title {
+  color: #666;
+  text-align: center;
+  background: #f4f4f4;
+  font-size: 26rpx;
+  padding: 14rpx;
+}
+
+.list {
+  font-size: 28rpx;
+}
+
+.list .list-item {
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.list .list-item view:nth-child(1) {
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-bottom: 6rpx;
+}
+
+.list .list-item view:nth-child(2) {
+  font-size: 24rpx;
+  color: #777;
+  margin-bottom: 6rpx;
+}
+
+.list .list-item view:nth-child(3) {
+  font-size: 24rpx;
+  color: #08a5ff;
+}

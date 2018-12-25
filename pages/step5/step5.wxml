@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="title">
+    <view class="span">小满AI建议您发送以下邮箱内容</view>
+    <view class="type">邮件类型</view>
+  </view>
+  <view class="header">
+    <view class="p">
+      <view class="span">主题:</view>
+      You Need to Know About CHIAIN OF IRON cost Saving
+    </view>
+    <view class="p">
+      <view class="span">发件人:</view>
+      kk@xiaomancrm.com
+    </view>
+    <view class="p">
+      <view class="span">收件人:</view>
+      小满AI会为您精选出30位优质联系人
+    </view>
+  </view>
+  <view class="contents">
+    <text>
+      Hi,
+      
+    We are an international trading company from China. We make and export high quality products that you are selling on your website and our price is very competitive in the market.
+
+    If you are interested please let us know so that we can send you the quote. Looking forward to working with you.
+    </text>
+  </view>
+  <view class="actions">
+    <view class="btn">换一封</view>
+    <view bindtap="toNext" class="btn">确认发送</view>
+  </view>
+</view>

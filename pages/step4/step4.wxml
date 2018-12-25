@@ -1,0 +1,35 @@
+<view class="container">
+  <view class="title">Pet Valu Animal can piuck up the baby</view>
+  <view class="imgs">
+    <image src="http://placeimg.com/400/400?_1" />
+    <image src="http://placeimg.com/400/400?_2" />
+    <image src="http://placeimg.com/400/400?_3" />
+  </view>
+  <view class="location">China</view>
+  <view class="ul">
+    <view class="li">简介: Pet FoodPet FoodPet FoodPetFoodPet</view>
+    <view class="li">官网: https://xiaoman.cn</view>
+    <view class="li">电话: 0775-88456789</view>
+    <view class="li">地址: No.9678, Shaennam Avenu Shenzhen</view>
+  </view>
+  <view class="contact">
+    <view class="h3">联系人</view>
+    <view class="item">
+      <view class="p">nice@xiaoman.cn</view>
+      <view class="p">G.pillat -staff</view>
+    </view>
+    <view class="item">
+      <view class="p">ni**ce@xiaoman.cn</view>
+      <view class="p">G.pillat -staff</view>
+    </view>
+    <view class="item">
+      <view class="p">ni**ce@xiaoman.cn</view>
+      <view class="p">G.pillat -staff</view>
+    </view>
+  </view>
+  <view class="actions">
+    <view class="btn">首页</view>
+    <view class="btn">分享</view>
+    <view bindtap="toNext" class="btn">写EDM邮件</view>
+  </view>
+</view>

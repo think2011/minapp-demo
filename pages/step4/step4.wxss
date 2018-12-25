@@ -1,0 +1,86 @@
+.container {
+  padding: 20rpx;
+}
+
+.title {
+  padding: 20rpx;
+  font-size: 34rpx;
+}
+
+.imgs {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.imgs image {
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 8rpx;
+  margin-right: 14rpx;
+}
+
+.imgs image:last-child {
+  margin-right: 0;
+}
+
+.location {
+  color: #666;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+
+.ul {
+  font-size: 30rpx;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.ul .li {
+  margin-bottom: 10rpx;
+}
+
+.contact {
+}
+
+.contact .h3 {
+  font-size: 34rpx;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.contact .item {
+  margin-bottom: 20rpx;
+}
+
+.contact .p {
+  font-size: 28rpx;
+  color: #666;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+
+.actions .btn {
+  flex: 1;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 20rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #888;
+}
+
+.actions .btn:last-child {
+  color: #fff;
+  background: #4f8cfd;
+  flex: 40%;
+}

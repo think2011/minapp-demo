@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="title">共找到5500个结果</view>
+  <view class="list">
+    <view bindtap="toNext" class="list-item" wx:for="{{list}}" wx:key="item.title">
+      <view>{{item.title}}</view>
+      <view>{{item.desc}}</view>
+      <view>{{item.url}}</view>
+    </view>
+  </view>
+</view>
