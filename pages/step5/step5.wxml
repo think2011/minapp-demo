@@ -1,7 +1,10 @@
 <view class="container">
   <view class="title">
     <view class="span">小满AI建议您发送以下邮箱内容</view>
-    <view class="type">邮件类型</view>
+    <view class="type">
+      邮件类型
+      <view class="icon icon-down inline"></view>
+    </view>
   </view>
   <view class="header">
     <view class="p">
@@ -20,7 +23,7 @@
   <view class="contents">
     <text>
       Hi,
-      
+
     We are an international trading company from China. We make and export high quality products that you are selling on your website and our price is very competitive in the market.
 
     If you are interested please let us know so that we can send you the quote. Looking forward to working with you.
@@ -28,6 +31,9 @@
   </view>
   <view class="actions">
     <view class="btn">换一封</view>
-    <view bindtap="toNext" class="btn">确认发送</view>
+    <view bindtap="toNext" class="btn">
+      <view class="icon icon-feiji inline"></view>
+      确认发送
+    </view>
   </view>
 </view>

@@ -39,3 +39,7 @@ web-view,
 ad {
   box-sizing: border-box;
 }
+
+.inline {
+  display: inline;
+}

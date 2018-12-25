@@ -5,7 +5,10 @@
     <image src="http://placeimg.com/400/400?_2" />
     <image src="http://placeimg.com/400/400?_3" />
   </view>
-  <view class="location">China</view>
+  <view class="location">
+    <view class="icon icon-location inline"></view>
+    China
+  </view>
   <view class="ul">
     <view class="li">简介: Pet FoodPet FoodPet FoodPetFoodPet</view>
     <view class="li">官网: https://xiaoman.cn</view>

@@ -1,7 +1,7 @@
 <!-- index.wxml -->
 <view class="container">
   <view class="search">
-    <input type="text" placeholder="请输入您想查询的英文产品名称" />
+    <input type="text" bindconfirm="next" placeholder="请输入您想查询的英文产品名称" />
     <view class="icons">
       <view class="icon icon-record"></view>
       <view class="icon icon-photo"></view>
